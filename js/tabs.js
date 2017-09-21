@@ -1,10 +1,38 @@
+$(document).ready(function(){
 
-var men_serv = $ ('.men_servicios');
-var links = men_serv.find('a');
-var items = $('.item_serv');
+	$('.marketing').on('click', function(){
 
-men_serv.on('click', 'a', function{
-	var t =(this);
-	t.addClass('active').siblings().removeClass('active');
-});
+		$('.item_serv1').fadeIn();
+		$('.item_serv2').fadeOut();
+		$('.item_serv3').fadeOut();
+		$('.item_serv4').fadeOut();
 
+	})
+
+	$('.advertising').on('click', function(){
+
+		$('.item_serv2').fadeIn();
+		$('.item_serv1').fadeOut();
+		$('.item_serv3').fadeOut();
+		$('.item_serv4').fadeOut();
+
+	})
+
+	$('.cloud').on('click', function(){
+
+		$('.item_serv3').fadeIn();
+		$('.item_serv1').fadeOut();
+		$('.item_serv2').fadeOut();
+		$('.item_serv4').fadeOut();
+
+	})
+
+	$('.consulting').on('click', function(){
+
+		$('.item_serv4').fadeIn();
+		$('.item_serv1').fadeOut();
+		$('.item_serv2').fadeOut();
+		$('.item_serv3').fadeOut();
+
+	})
+})

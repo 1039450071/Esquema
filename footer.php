@@ -12,7 +12,7 @@
 
         
         
-        <script type="text/javascript" src="<?php bloginfo('template_url')?>/js/jquey-3.2.1.min.js"></script>   
+        <script type="text/javascript" src="<?php bloginfo('template_url')?>/js/jquery.min.js"></script>   
         <script type="text/javascript" src="<?php bloginfo('template_url')?>/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url')?>/js/tabs.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url')?>/js/functions.js"></script>

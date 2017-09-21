@@ -15,24 +15,24 @@
       <div class="container-fluid cont_men_servicios">
           <div class="container">
 
-            <div class="col-xs-6 col-md-3 men_servicios ">
-              <a href="#serv1" class="active"><span class="typcn typcn-flow-children "></span>
-              <h3 >Marketing</h3></a>
+            <div class="col-xs-6 col-md-3 men_servicios marketing">
+              <span class="typcn typcn-flow-children"></span>
+              <h3 >Marketing</h3>
             </div>
 
             <div class="col-xs-6 col-md-3 men_servicios advertising">
-              <a href="#serv2"><span class="typcn typcn-location-arrow"></span>
-              <h3>Advertising</h3></a>
+              <span class="typcn typcn-location-arrow"></span>
+              <h3>Advertising</h3>
             </div>
 
             <div class="col-xs-6 col-md-3 men_servicios cloud">
-            <a href="#serv3"><span class="typcn typcn-weather-cloudy"></span>
-            <h3>Cloud Storage</h3></a>
+            <span class="typcn typcn-weather-cloudy"></span>
+            <h3>Cloud Storage</h3>
             </div>
 
             <div class="col-xs-6 col-md-3 men_servicios consulting">
-            <a href="#serv4"><span class="typcn typcn-group"></span>
-            <h3>Consulting</h3></a>
+            <span class="typcn typcn-group"></span>
+            <h3>Consulting</h3>
             </div>
           </div>
 
@@ -41,7 +41,7 @@
 
       <div class="container contenedor_servicios">
         
-        <div id="serv1" class="item_serv active">
+        <div class="item_serv1">
             <h3>Marketing <span class="typcn typcn-flow-children "></span></h3>
             <hr>
 
@@ -54,20 +54,38 @@
         </div>
 
 
-        <div id="serv2" class="item_serv" >
-            <h3>Marketing <span class="typcn typcn-flow-children "></span></h3>
+        <div class="item_serv2">
+            <h3>Advertising <span class="typcn typcn-location-arrow"></span></h3>
             <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
 
-        <div id="serv3" class="item_serv " >
-            <h3>Marketing <span class="typcn typcn-flow-children "></span></h3>
+        <div  class="item_serv3" >
+            <h3>Cloud Storage <span class="typcn typcn-weather-cloudy"></span></h3>
             <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
-        <div id="serv4" class="item_serv" >
-            <h3>Marketing <span class="typcn typcn-flow-children "></span></h3>
+        <div  class="item_serv4" >
+            <h3>Consulting <span class="typcn typcn-group"></span></h3>
             <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         
       </div>
@@ -125,42 +143,188 @@
           </div>
   </div>
 
+  
+  
   <div class="container-fluid content_galeria">
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
-    </div>
-    <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
 
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria2.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+
+
+    <div class="galeria">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria3.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
+    </div>
+
 
    <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria4.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
 
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria5.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+
 
    <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria5.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
 
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria4.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria3.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria2.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+
+
     <div class="galeria">
-      <img src="<?php bloginfo('template_url')?>/images/fondo_header.jpg">
+      <img src="<?php bloginfo('template_url')?>/images/galeria/galeria.jpg">
+      <div class="cont_info">
+        <div class="info">
+          <h5>Morning View</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt <span>[...]</span></p>
+
+          <span class="typcn typcn-th-menu icon-gal"></span>
+          <span class="typcn typcn-camera icon-gal"></span>
+          <span class="typcn typcn-times icon-gal"></span>
+        </div>
+
+      </div>
     </div>
+    
 
   </div>
 
